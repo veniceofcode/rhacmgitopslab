@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: gitops-dev
 
 bases:
-  - ../../base
+  - ../../pet-clinic-assets/base
 
 resources:
   - namespace.yaml
