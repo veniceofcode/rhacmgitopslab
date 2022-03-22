@@ -3,7 +3,17 @@ kind: Kustomization
 namespace: gitops-dev
 
 bases:
-  - ../../pet-clinic-assets/base
+  - ../../base
+
+patchesStrategicMerge:
+  - petclinic-deployment.yaml
+  - petclinic-route.yaml
+  - petclinic-svc.yaml
+  - petclinicdb-deploymentconfig.yaml
+  - petclinicdb-pvc.yaml
+  - petclinicdb-secret.yaml
+  - petclinicdb-svc.yaml
+
 
 resources:
   - namespace.yaml
