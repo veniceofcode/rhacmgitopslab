@@ -1,8 +1,0 @@
-commonLabels:
-  org: RHTr
-commonAnnotations:
-  cluster: ankara
-bases:
-- ../../base
-patchesStrategicMerge:
-- mongo-route.yaml
