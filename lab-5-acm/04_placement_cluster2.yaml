@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: cluster2
+  name: staging
   namespace: web-app
 spec:
   clusterSelector:
