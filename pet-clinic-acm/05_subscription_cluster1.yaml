@@ -7,7 +7,7 @@ metadata:
     deployment: hello
   annotations:
     apps.open-cluster-management.io/github-branch: master
-    apps.open-cluster-management.io/github-path: pet-clinic-assets/spring-petclinic-helm/spring-petclinic
+    apps.open-cluster-management.io/github-path: pet-clinic-assets/overlays/sandbox
 spec:
   channel:  pet-clinic/pet-clinic-channel
   placement: 
