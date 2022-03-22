@@ -10,4 +10,4 @@ resources:
 
 images:
   - name: quay.io/pittar/petclinic
-    newTag: gitops-dev
+    newTag: petclinic-sandbox
