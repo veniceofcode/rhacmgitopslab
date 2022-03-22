@@ -6,6 +6,7 @@ bases:
   - ../../base
 
 patchesStrategicMerge:
+  - namespace.yaml
   - petclinic-deployment.yaml
   - petclinic-route.yaml
   - petclinic-svc.yaml
