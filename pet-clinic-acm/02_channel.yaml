@@ -5,4 +5,4 @@ metadata:
   namespace: pet-clinic
 spec:
   pathname: 'https://github.com/veniceofcode/rhacmgitopslab.git'
-  type: HelmRepo
+  type: GitHub
