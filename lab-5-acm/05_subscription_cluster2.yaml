@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: web-app-cluster2
+  name: web-app-staging
   namespace: web-app
   labels:
     deployment: hello
@@ -13,4 +13,4 @@ spec:
   placement: 
     placementRef: 
       kind: PlacementRule
-      name: cluster2
+      name: staging
