@@ -1,0 +1,16 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: pet-clinic-production
+  namespace: pet-clinic
+  labels:
+    deployment: hello
+  annotations:
+    apps.open-cluster-management.io/github-branch: master
+    apps.open-cluster-management.io/github-path: pet-clinic-assets/spring-petclinic-helm/spring-petclinic
+spec:
+  channel:  pet-clinic/pet-clinic-channel
+  placement: 
+    placementRef: 
+      kind: PlacementRule
+      name: production

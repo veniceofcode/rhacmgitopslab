@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: pet-clinic-channel
+  namespace: pet-clinic
+spec:
+  pathname: 'https://github.com/veniceofcode/rhacmgitopslab.git'
+  type: GitHub
