@@ -3,4 +3,4 @@ kind: Route
 metadata:
   name: the-route
 spec:
-  host: web-app.apps.sandy.demolab.local
+  host: web-app.apps.whiskylake.demolab.local
